@@ -1,0 +1,62 @@
+.sidebar-btn:hover {
+  background-color: #343a40 !important;
+  transform: translateX(5px);
+  transition: 0.2s;
+}
+
+/* Card look for pages */
+.page-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.service-card {
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-footer button {
+  width: 48%;
+}
+
+/* Common background for service/admin pages */
+/* Dashboard.css */
+.dashboard-background {
+  background-image: url('https://images.unsplash.com/photo-1581091215366-0f8f0e7a914c?auto=format&fit=crop&w=1400&q=80');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+/* Navbar active button */
+.navbar .nav-link.active {
+  background-color: #0d6efd; /* Bootstrap primary color */
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+/* Navbar hover effect */
+.navbar .nav-link:hover {
+  background-color: rgba(13, 110, 253, 0.2);
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+/* Service cards (Bootstrap cards inside AddService) */
+.service-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
